@@ -30,7 +30,7 @@ describe("useStorage ", () => {
     storage.removeItem('d')
     expect(storage.getItem("d")).toEqual(null);
   });
-  it("5: Check if storage implement the clear method / all key are deleted ", () => {
+  it("6: Check if storage implement the clear method / all key are deleted ", () => {
     storage.clear()
     expect(storage.getItem("a")).toEqual(null);
     expect(storage.getItem("b")).toEqual(null);
