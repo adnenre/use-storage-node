@@ -7,7 +7,7 @@
 ## install
 
 ```bash
-npm i use-storage-node @types/use-storage-node
+npm i use-storage-node
 
 ```
 ## Test
