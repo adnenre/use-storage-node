@@ -2,14 +2,14 @@ import NodeStorage from "./NodeStorage.js";
 declare class StorageService {
     #private;
     s: NodeStorage | Storage;
-    constructor(storageKey: string);
+    constructor(cryptKey: string);
     /**
      * ADD A CRYPTED ITEM
      * @param {key} key
      * @param {data} data
      * @returns undefined
      */
-    setItem(key: string, data: string): void;
+    setItem(key: string, data: any): void;
     /**
      * GET ITEM
      * @param {key} key
