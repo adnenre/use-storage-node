@@ -1,0 +1,40 @@
+{
+  "name": "use-storage-node",
+  "version": "1.0.1",
+  "description": "useStorage store crypted value on localStorage / node alternative ",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types" : "dist/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "rm -rf dist && rollup -c && tsc --emitDeclarationOnly"
+  },
+  "keywords": [
+    "hooks",
+    "react",
+    "useStorage",
+    "localstorage"
+  ],
+  "author": "adnen rebai",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@types/crypto-js": "^4.1.1",
+    "jest": "^29.3.1",
+    "rollup": "^3.7.4",
+    "typescript": "^4.9.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "react": "^18.2.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
