@@ -1,14 +1,19 @@
 {
   "name": "use-storage-node",
-  "version": "1.0.2",
+  "version": "1.0.4",
+  "homepage" : "https://github.com/adnenre/use-storage-node.git",
   "description": "useStorage store crypted value on localStorage / node alternative ",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "types" : "dist/types/index.d.ts",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types" : "./dist/types/",
   "type": "module",
   "scripts": {
     "test": "jest --coverage",
     "build": "rm -rf dist && rollup -c && tsc --emitDeclarationOnly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnenre/use-storage-node.git"
   },
   "keywords": [
     "hooks",

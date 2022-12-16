@@ -4,6 +4,19 @@
 
 #### could be used in Dom / node
 
+## install
+
+```bash
+npm i use-storage-node @types/use-storage-node
+
+```
+## Test
+
+```bash
+npm run test
+```
+
+## Usage
 ```js
 
 import useStorage from 'use-storage-node'
