@@ -3,8 +3,7 @@
   "version": "1.0.6",
   "homepage" : "https://github.com/adnenre/use-storage-node.git",
   "description": "useStorage store crypted value on localStorage / node alternative ",
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.esm.js",
+  "main": "./dist/index.js",
   "types" : "./dist/types/",
   "type": "module",
   "scripts": {
