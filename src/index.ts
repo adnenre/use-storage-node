@@ -1,9 +1,6 @@
 import StorageService from "./StorageService.js";
-const useStorage = (cryptokey : string) => {
+const storage = (cryptokey: string) => {
   return new StorageService(cryptokey);
-
 };
 
-
-export default useStorage;
-
+export default storage;

@@ -1,10 +1,10 @@
 {
   "name": "use-storage-node",
-  "version": "1.0.8",
-  "homepage" : "https://github.com/adnenre/use-storage-node.git",
+  "version": "1.0.9",
+  "homepage": "https://github.com/adnenre/use-storage-node.git",
   "description": "useStorage store crypted value on localStorage / node alternative ",
   "main": "./dist/index.js",
-  "types" : "./dist/types/",
+  "types": "./dist/types/",
   "type": "module",
   "scripts": {
     "test": "jest --coverage",
@@ -15,10 +15,9 @@
     "url": "git+https://github.com/adnenre/use-storage-node.git"
   },
   "keywords": [
-    "hooks",
-    "react",
-    "useStorage",
-    "localstorage"
+    "storage",
+    "localstorage",
+    "node storage"
   ],
   "author": "adnen rebai",
   "license": "MIT",
@@ -35,8 +34,7 @@
     "access": "public"
   },
   "dependencies": {
-    "crypto-js": "^4.1.1",
-    "react": "^18.2.0"
+    "crypto-js": "^4.1.1"
   },
   "files": [
     "dist"

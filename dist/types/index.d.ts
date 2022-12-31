@@ -1,4 +1,4 @@
 import StorageService from "./StorageService.js";
-declare const useStorage: (cryptokey: string) => StorageService;
-export default useStorage;
+declare const storage: (cryptokey: string) => StorageService;
+export default storage;
 //# sourceMappingURL=index.d.ts.map
