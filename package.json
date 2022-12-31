@@ -1,6 +1,6 @@
 {
   "name": "use-storage-node",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "homepage": "https://github.com/adnenre/use-storage-node.git",
   "description": "useStorage store crypted value on localStorage / node alternative ",
   "main": "./dist/index.js",
